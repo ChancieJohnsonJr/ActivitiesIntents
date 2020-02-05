@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <Button
+       android:id="@+id/Picture"
+       android:layout_width="match_parent"
+       android:layout_height="40dp"
+       android:text="@string/take_photo"
+       android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/EMICalculator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="EMI Calculator"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/Person"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Person"
+        android:onClick="onClick" />
+
+    <Button
+        android:id="@+id/GeneratePerson"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Person Results"
+        android:onClick="onClick" />
+
+
+</RelativeLayout>
